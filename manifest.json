@@ -1,0 +1,11 @@
+  {
+    "version": "1.0",
+    "name": "Getting Started Example",
+    "description": "Google Calendar Extension!",
+    "manifest_version": 2,
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://calendar.google.com/calendar/*"]
+    }]
+  }
